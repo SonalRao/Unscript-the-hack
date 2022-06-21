@@ -3,10 +3,10 @@
 import 'package:custom_radio_grouped_button/custom_radio_grouped_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:park_it_v2/config/theme.dart';
-import 'package:park_it_v2/navbar.dart';
 
 import '../backend/backend.dart';
+import '../config/theme.dart';
+import '../navbar.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

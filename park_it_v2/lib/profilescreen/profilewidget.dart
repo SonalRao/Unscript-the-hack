@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:park_it_v2/config/theme.dart';
+
+import '../config/theme.dart';
 
 class ProfileWidget extends StatelessWidget {
   final String imagePath;
@@ -10,7 +11,7 @@ class ProfileWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final color = Palette.primary;
+    const color = Palette.primary;
     return Center(
       child: Stack(children: [
         buildImage(),

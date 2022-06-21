@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart' as lottie;
-import 'package:park_it_v2/backend/connection.dart';
-import 'package:park_it_v2/config/fonts.dart';
-import 'package:park_it_v2/config/theme.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:latlong2/latlong.dart';
 
+import '../backend/connection.dart';
+import '../config/fonts.dart';
+import '../config/theme.dart';
 import 'booking_screen.dart';
 
 class ParkingDetails extends StatefulWidget {

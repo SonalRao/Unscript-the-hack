@@ -2,8 +2,9 @@
 //add the back button functionality and logout functionality.
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:park_it_v2/config/fonts.dart';
-import 'package:park_it_v2/config/theme.dart';
+
+import '../config/fonts.dart';
+import '../config/theme.dart';
 
 class ProfileScreen extends StatefulWidget {
   static const routeName = "/profile";
@@ -25,7 +26,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
         backgroundColor: Palette.primary,
         elevation: 0,
         // leading: Icon(Icons.arrow_back, ),
-        title: Text('Profile', style: TextStyle(fontSize: Fonts.largeHeading),),
+        title: Text(
+          'Profile',
+          style: TextStyle(fontSize: Fonts.largeHeading),
+        ),
         centerTitle: true,
       ),
       backgroundColor: Palette.primary,
@@ -78,8 +82,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   shape: BoxShape.circle,
                   color: Palette.bgLightGrey,
                   image: DecorationImage(
-                      fit: BoxFit.fitWidth,
-                      image: AssetImage('assets/images/profile_pic.png'),)
+                    fit: BoxFit.fitWidth,
+                    image: AssetImage('assets/images/profile_pic.png'),
+                  )
                   // color: Colors.orange[100],
                   ),
             ),
@@ -124,13 +129,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   Widget _heading(String heading) {
     return Padding(
-      padding:  EdgeInsets.only(left:15.w),
+      padding: EdgeInsets.only(left: 15.w),
       child: SizedBox(
         width: 174.w, //80% of width,
         child: Text(
           heading,
           textAlign: TextAlign.start,
-          style: TextStyle(fontSize: Fonts.heading, color: Palette.textWhite, fontWeight: FontWeight.w500),
+          style: TextStyle(
+              fontSize: Fonts.heading,
+              color: Palette.textWhite,
+              fontWeight: FontWeight.w500),
         ),
       ),
     );
@@ -205,8 +213,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
               leading: Icon(Icons.dashboard_customize),
               title: Text("About Us"),
             ),
-            
-            
           ],
         ),
       ),

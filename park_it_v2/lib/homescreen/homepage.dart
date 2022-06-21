@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:park_it_v2/config/fonts.dart';
 import 'package:geolocator/geolocator.dart';
 import '../booking screens/parking_details.dart';
+import '../config/fonts.dart';
 import '../config/theme.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';

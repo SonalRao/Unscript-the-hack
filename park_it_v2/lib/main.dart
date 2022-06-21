@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:park_it_v2/loginscreen/loginscreen.dart';
-import 'package:park_it_v2/profilescreen/profile_screen.dart';
+import 'loginscreen/loginscreen.dart';
 import 'navbar.dart';
 import 'package:get/get.dart';
 

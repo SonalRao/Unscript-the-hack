@@ -3,12 +3,12 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:park_it_v2/booking%20screens/booking_screen.dart';
-import 'package:park_it_v2/config/theme.dart';
-import 'package:park_it_v2/main_screens/qr_code.dart';
-import 'package:park_it_v2/profilescreen/profile_screen.dart';
 
+
+import 'config/theme.dart';
 import 'homescreen/homepage.dart';
+import 'main_screens/qr_code.dart';
+import 'profilescreen/profile_screen.dart';
 
 class Navbar extends StatefulWidget {
   const Navbar({Key? key, required this.index, this.bookingDetails})

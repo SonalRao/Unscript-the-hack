@@ -6,13 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_time_picker_spinner/flutter_time_picker_spinner.dart';
 import 'package:get/get.dart';
-import 'package:park_it_v2/config/theme.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:park_it_v2/main_screens/qr_code.dart';
-import 'package:park_it_v2/navbar.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import '../config/fonts.dart';
+import '../config/theme.dart';
+import '../navbar.dart';
 // import 'package:intl/intl.dart';
 // import 'package:maps_launcher/maps_launcher.dart';
 

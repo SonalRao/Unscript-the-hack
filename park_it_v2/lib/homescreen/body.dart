@@ -1,9 +1,8 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
-import 'package:park_it_v2/booking%20screens/booking_screen.dart';
-import 'package:park_it_v2/profilescreen/profile_screen.dart';
-
+import '../booking screens/booking_screen.dart';
+import '../profilescreen/profile_screen.dart';
 import 'homepage.dart';
 
 
