@@ -189,7 +189,7 @@ router.post("/allparkingdetails",async (req,res)=>{
             const plat = park.lat;
             const token = process.env.MAPBOX_TOKEN;
             const data = await axios.get(
-                `https://api.mapbox.com/directions/v5/mapbox/driving/${long}%2C${lat}%3B${plong}%2C${plat}?alternatives=false&geometries=geojson&steps=false&access_token=${token}`
+                `https://api.mapbox.com/directions/v5/mapbox/driving-traffic/${long}%2C${lat}%3B${plong}%2C${plat}?alternatives=false&geometries=geojson&steps=false&access_token=${token}`
             );
             park = { ...park._doc, duration: data.data.routes[0].duration,distance:data.data.routes[0].distance};
             //duration in seconds and distance in metres//
