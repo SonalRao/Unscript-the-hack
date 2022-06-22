@@ -36,3 +36,30 @@ flutter run
   npm install 
   npm run 
 ```
+
+## Prototype preview
+ Login/Register Screen
+![2022-06-21 19 52 17 3244](https://user-images.githubusercontent.com/77265066/175104132-bd3b1629-f606-4854-8d87-4ffdd2d341a8.jpg)
+
+ Home Screen
+![2022-06-21 19 52 54 3248](https://user-images.githubusercontent.com/77265066/175104163-3e996a2b-6be7-4506-89d8-a8a63798cc26.jpg)
+
+ Nearby Parking lots
+![2022-06-21 19 53 02 3246](https://user-images.githubusercontent.com/77265066/175106477-f1ed95c0-fa0a-42a5-8383-48de13926271.jpg)
+
+
+![2022-06-21 19 53 07 3250](https://user-images.githubusercontent.com/77265066/175104315-a59a1448-fcd0-4be9-9630-730d8644c8a1.jpg)
+
+
+![2022-06-21 19 53 05 3249](https://user-images.githubusercontent.com/77265066/175104326-a2117fb8-84db-41a8-987b-cfc907d9b136.jpg)
+
+![2022-06-21 19 53 15 3253](https://user-images.githubusercontent.com/77265066/175104356-8f0fc61a-e04e-48d8-95fc-c05bfb9726ec.jpg)
+
+![2022-06-21 19 53 17 3252](https://user-images.githubusercontent.com/77265066/175104371-2430bdaf-d586-4393-89b4-e20473ba55a6.jpg)
+
+![2022-06-21 19 53 20 3251](https://user-images.githubusercontent.com/77265066/175104380-97f65f03-49c7-4006-809f-0d008893518d.jpg)
+
+![2022-06-21 19 53 00 3245](https://user-images.githubusercontent.com/77265066/175104393-a914bdcb-3d8c-4125-9173-59e7b6e3c6a0.jpg)
+
+![2022-06-21 19 53 24 3255](https://user-images.githubusercontent.com/77265066/175104423-6ae074ac-c480-4126-a594-19312fdf8c60.jpg)
+
