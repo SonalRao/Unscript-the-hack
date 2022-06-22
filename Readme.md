@@ -50,7 +50,6 @@ flutter run
 
 ![2022-06-21 19 53 07 3250](https://user-images.githubusercontent.com/77265066/175104315-a59a1448-fcd0-4be9-9630-730d8644c8a1.jpg)
 
-
 ![2022-06-21 19 53 05 3249](https://user-images.githubusercontent.com/77265066/175104326-a2117fb8-84db-41a8-987b-cfc907d9b136.jpg)
 
 ![2022-06-21 19 53 15 3253](https://user-images.githubusercontent.com/77265066/175104356-8f0fc61a-e04e-48d8-95fc-c05bfb9726ec.jpg)
