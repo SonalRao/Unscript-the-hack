@@ -19,7 +19,7 @@ The admin can look at the count of available parking spots and can also have the
 - Predictive analytics can help design smarter inventory allocation decisions.
 
 ## Instructions to download and run the application
-##For running Flutter
+## For running Flutter
 1. Install Flutter from its website. (https://docs.flutter.dev/get-started/install)
 2. Once installed, set up the editor (https://docs.flutter.dev/get-started/editor)
 3. Navigate to the folder containing pubspec.yaml and type 
@@ -27,11 +27,12 @@ The admin can look at the count of available parking spots and can also have the
 flutter run
 ```
 
-##For running Nodejs
-1. Install the latest version of Nodejs on your Pc (https://nodejs.org/en/download/)
-2. Install Unscript-the-hack with npm
+## For running Nodejs
+1. Install the latest version of Nodejs on your PC (https://nodejs.org/en/download/)
+2. Use npm install to install dependencies
 
 ```bash
-  npm install Unscript-the-hack
-  cd Unscript-the-a=hack
+  cd server
+  npm install 
+  npm run 
 ```
